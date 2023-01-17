@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+:root {
+  font-family: 'Montserrat', sans-serif;
+  --background-color: black;
+  --color: #fff;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: var(--color);
+}
+
+.content {
+  height: 100vh;
+  width: 100vw;
+}
+
+body{
+  background-color: var(--background-color);
+}
+
+/*left side*/
+
+.picture {
+  background-image: url(./assets/to-uyen-PCGMzUidA6M-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40vw;
+}
+
+.logo,
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: relative;
+  top: 20vh;
+  gap: 1vw;
+  padding: 15px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.christmas-logo {
+  height: 9vh;
+}
+
+.left {
+  padding-left: 3vw;
+}
+
+
+/*right side*/
+
+.right {
+  width: 60vw;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.right-text {
+  font-size: 30px;
+  width: auto;
+}
+
+.form {
+  background-color: rgb(6, 6, 6);
+  box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
+  display: flex;
+  flex-flow: column wrap;
+  gap: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.input {
+  display: flex;
+  flex-flow: column wrap;
+  width: 50%;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  opacity: 80%;
+}
+
+.form-title {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+input {
+  background-color: rgb(6, 6, 6);
+  border: 1px solid rgb(80, 80, 80);
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid red;
+}
+
+button {
+  background-color: #000000;
+  color: green;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 40px ;
+}
+
+button:hover {
+  background-color: green;
+  color: black;
+  border: 2px solid green;
+}
+
+.login {
+  display: flex;
+  gap: 5px;
+  margin-top: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  font-weight: 700;
+}
+
+a:hover {
+  color: rgb(7, 124, 75);
+}
+
+/*
+.log-in{
+    display: flex;
+    gap: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color);
+    font-weight: 700;
+}
+
+a:hover{
+    color: white;
+}
+*/
